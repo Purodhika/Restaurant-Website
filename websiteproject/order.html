@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" />
+<script type="text/javascript">
+function submit()
+{
+	alert("Thank You!! your information is saved");
+document.write("Thank You");
+}
+</script>
+</head>
+<body bgcolor="black">
+<ul>
+<li><a class="navbar"  href="foodfactory.html">HOME</a></li>
+ <li> <a href="demo.html">ABOUT US</a></li>
+  <li><a href="menu.html">MENU</a></li>
+  <li><a href="order.html">SIGN IN</a></li>
+  <li><a href="contact.html" class="right">CONTACT US</a></li>
+<div class="image1"><img src="logo4.png" width="100%" height="80px">
+<br><br><br><br>
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container"><font color="white">
+    <h1><center>SIGN IN </h1>
+    <center><p>Please fill in this form to create an account.</center></p>
+    <hr>
+	 <label for="text"><b>ENTER YOUR FIRST NAME</b></label>
+    <input type="text" placeholder="first name " name="first name" required>
+	
+	 <label for="text"><b>ENTER YOUR LAST NAME</b></label>
+    <input type="text" placeholder=" last name" name="last name" required>
+
+ <label for="phono number"><b>ENTER YOUR PHONE NUMBER</b></label>
+    <input type="text" placeholder="phone number" name="phone number" required>
+
+
+
+    <label for="email"><b> ENTER EMAIL</b></label>
+    <input type="text" placeholder="email" name="email" required>
+
+    <label for="psw"><b>ENTER PASSWORD</b></label>
+    <input type="password" placeholder=" Password" name="psw" required>
+
+    <label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+   <button type="submit" class="signupbtn" onclick="submit()">SUBMIT</button>
+      <button type="button" class="cancelbtn">CANCEL</button></font>
+    </div>
+  </div>
+</form>
+<div id="footer">
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:black;text-align:center;padding:30px 80px;text-align: justify;"><center>
+<img class="sc"     src="sc.png">&nbsp&nbsp
+<img class="yt"     src="yt.jpg">&nbsp&nbsp
+<img class="insta"  src="insta.png">&nbsp&nbsp
+<img class="wp"     src="wp.png">&nbsp&nbsp
+<img class="twitter"src="twitter.png"></center><br><br>
+<p><center>
+Office Address:#345 Main Market,
+New Delhi,India</center></p>
+  <p><center>@2020| All Rights reserved.</center></p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

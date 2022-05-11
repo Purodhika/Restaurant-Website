@@ -1,0 +1,343 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size:40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+    transition-delay: 2s;
+}
+.fade {
+
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.text1
+{
+color: grey;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+/* Column container */
+.cake 
+{
+      cursor:pointer;
+      height: 300px;
+      position: relative;
+      overflow: hidden;
+      width: 400px;
+      text-align:center;
+      margin-left:15px;
+margin-right:15px
+      
+      }
+	  
+      .cake .fadedbox {
+      background-color:#fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      width: 400px;
+      height: 300px;
+     
+      }
+      .cake:hover .fadedbox
+	  { 
+          opacity: 0.85; 
+          }
+	  
+ .cake .imgtext
+ {
+font-size:50px;
+text-color:#fff
+      }
+	      
+.plx1, .plx2
+ {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plx1{
+  background-image: url("p12.jpg");
+  min-height: 400px;
+}
+
+.plx2 {
+  background-image: url("p11.jpg");
+  min-height: 400px;
+}
+.caption
+ {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  color:#800000;
+}
+
+.caption span.border 
+{
+  background-color: #111;
+  color: white;
+  padding: 18px;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+.sc{
+padding:0px;
+text-decoration:none;
+width:40px;
+}
+.yt{
+padding:0px;
+text-decoration:none;
+width:40px;
+height:40px;
+}
+.insta
+{
+padding:0px;
+text-decoration:none;
+width:40px;
+}
+.wp{
+padding:0px;
+text-decoration:none;
+width:40px;
+}
+.twitter{
+padding:0px;
+text-decoration:none;
+width:40px;
+}
+ul
+{
+margin:0px;
+padding:0px;
+width:100%;
+
+}
+
+ul li
+{
+float:left;
+width:210px;
+height:40px;
+background-color:black;
+opacity:.8;
+text-decoration:none;
+line-height:40px;
+text-align:center;
+font-size:20px;
+}  
+ul li a
+{
+display-inline:block;
+color:white;
+text-decoration:none;
+}
+ul li a:hover 
+{
+background-color:pink;
+display:block;
+}
+.navbar
+{
+display:inline-block;
+padding-center:0;
+}
+.range 
+{
+      cursor:pointer;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      width: 300px;
+      text-align:center;
+      margin-left:0px;
+      }
+.header
+{
+height:5px;
+width: 100%
+
+}
+.text1 {
+  color: black;
+  font-size:35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 70px;
+  width: 100%;
+  text-align:center;   
+}
+
+/*form*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 50px;
+  background:pink;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: pink;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+	  .image1{
+		  text-align:center;
+		  color:white;
+		  height:100px;
+		  color: white;
+  font-size:40px;
+  padding: 8px 12px;
+		  
+	  
+	  }
+	  .image11{
+		   color: white;
+  font-size:40px;
+  position:top;
+  padding: 8px 12px;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+   
+	  }
+	  .text {
+  color: white;
+  font-size:40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+	.text2
+	{cursor:pointer;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	}
+	.checked {
+  color: orange;
+	}
+	
+.textm
+ {
+  color: white;
+  font-size:35px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom:3px;
+    
+}
+.menu 
+{
+      cursor:pointer;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      width: 300px;
+      text-align:center;
+      margin-left:10px;
+      margin-right:10px;
+      
+      }	
+	  
+	  
+
+	  
+     
+      
+	  
+
